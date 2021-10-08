@@ -1,0 +1,303 @@
+<DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College Web Template</title>
+   
+</head>
+<style>
+body{
+      background-image: ("grad.jpg");
+background-repeat:no-repeat;
+background-attachment: fixed;
+background-size: 100% 100%;
+}
+body{
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+body h1
+{
+
+text-align:center;
+top:10px;
+}
+body h3{
+
+text-align:center;}
+
+.wrapper{
+    background:  gradient green;
+	background-size:cover;
+    no-repeat center center;
+    min-height: 30rem;
+}
+
+nav{
+    width: 100%;
+    height: 80px;
+    background-color: #f80;
+    line-height: 80px;
+}
+
+nav ul{
+    float: right;
+    margin: 0;
+    margin-right: 1.9rem;
+}
+
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 20px;
+}
+.container
+    {
+       width: 100%;
+       height: 80vh;
+       padding-top: 25vh;
+       background-image: linear-gradient(#000000c3,#000000c3,url(...c:/images/gra.jpg));
+       text-align: center;
+
+    }
+    .container
+    {
+        font-family: serif;
+        margin-bottom: 20px;
+        word-spacing: 5px;
+    }
+    .container p{
+        margin-bottom: 30px;
+        letter-spacing: 2px;
+    }
+    .container button
+    {
+        padding: 10px;
+        background: #f80;
+        border: 1px solid #f80;
+    }
+	.container-1 a
+	{
+        margin-left:20px;
+		font-family: serif;
+	    text-align:center;
+	    padding: 15px;
+        background: #f80;
+        border: 1px solid #f80;
+		position:absolute;
+		
+		
+	}
+	
+    
+
+.img{
+    width: 14%;
+    margin-left: 1.9rem;
+    margin-top: -4%;
+}
+
+.nav ul li:hover{
+    background-color: #669900;
+    color: #rgb(95, 151, 5);
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.section{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    margin-top: 4%;
+}
+
+.section h1{
+    color: #fff;
+    line-height: 50px;
+}
+
+.section p{
+    color: red;
+}
+
+.btn-1{
+    background-color: orangered;
+    padding: 0.7rem 1rem;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+	
+}
+.btn-2
+{
+    background-color: orangered;
+    padding: 0.7rem 1rem;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+	btn-address: right;
+	}
+
+.features{
+    margin-top: 2%;
+    margin-bottom: 2%;
+	text-colour:#fff;
+}
+
+.features button{
+    padding: 0.7rem 2rem;
+    margin-right: 2rem;
+    font-size: 1rem;
+    opacity: 0.7;
+	background:#f80;
+	text-colour:#fff;
+}
+
+showcase h1{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    text-align: center;
+	background:#f80;
+}
+
+#courses{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+#courses img{
+    width: 200px;
+    border-radius: 5px;
+    border: 2px solid #000;
+    margin: auto;
+	
+}
+.course lab h2{
+text-align:center;
+}
+.enter{
+    margin-top: 10%;
+    background-color:#f80 ;
+    padding: 0.7rem 1rem;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+
+}
+
+footer{
+    background-color: #333;
+    color: #fff;
+    text-align: left;
+    padding: 1.2rem;
+    margin-top: 4%;
+}
+footer h1
+{
+text-align:center;
+}
+
+</style>
+<body>
+
+<h1>VIVEKANANDHA EDUCATIONAL INSTITUTIONS</h1>
+<h3>THIRUCHENGODE,NAMAKKAL(DT),TAMILNADU<h3>
+
+   
+   <div class="wrapper">
+   
+   
+<!--NAVIGATION-->
+       <nav>
+         
+          <ul>
+              <li><a href="#">HOME</a></li>
+              <li><a href="#">ABOUT US</a></li>  
+              <li><a href="#">ADMISSION</a></li>
+              <li><a href="#">PLACEMENT</a></li>
+              <li><a href="#">COMPUS LIFE</a></li>
+              <li><a href="#?">FACILITIES</a></li>
+              <li><a href="#">CONTACT</a></li>
+			   
+          </ul>
+       </nav>
+	   <div class="container">
+	    <img src="C:\Users\shock\Desktop\project\logo.png" class="img" alt="logo"> 
+        <h1>VIVEKANANDHA COLLEGE OF ENGINEERING,NAMAKKAL</h1>
+		<h3>Approved by AICTE and Accredited by NAAC New delhi,Affiliated to Anna University<h3>
+        <h3>COUNSELLING CODE : 2345</h3>
+		<a href="C:\Users\shock\Desktop\project\staff.html"><button class="btn-1">FACULTY LOGIN</button></a>
+          <a href="C:\Users\shock\Desktop\project\student.html"><button class="btn-2">STUDENT LOGIN</button></a><br><br>
+        <a href=""><button class="btn-2">EXAM RESULT</button></a>
+		  
+		  
+		  </div>
+		  <img src="C:\Users\shock\Desktop\project\vce.jpg"width="50%" alt="cl">
+		 
+		  
+		
+<!--END OF NAVIGATION-->
+      
+     
+   
+<!--SHOWCASE-->
+   <showcase>
+       <h1>FACILITIES</h1>
+       <div id="courses">
+	   
+           <div class="labs">
+               <h3>VCE LABS</h3>
+               <img src="C:\Users\shock\Desktop\project\computer_labs.jpg" width="50%" alt="cl">
+               <a href="labs.html" ><button class="enter">MORE INFO</button></a>
+           </div>
+           <div class="library">
+               <h3>VCE LIBRARY</h3>
+               <img src="C:\Users\shock\Desktop\project\library.jpg" alt="library">
+               <a href="lib.html" ><button class="enter">MORE INFO</button></a>
+           </div>
+           <div class="hostel">
+               <h3>VCE HOSTEL</h3>
+               <img src="C:\Users\shock\Desktop\project\hostel.jpg" alt="hostel">
+			   <a href="HOSTEL.HTML" ><button class="enter">MORE INFO</button></a>
+           </div>
+           
+           <div class="auditorium">
+               <h3>VCE AUDITORIUM</h3>
+               <img src="C:\Users\shock\Desktop\project\images (1).jpg" alt="auditorium">
+               <a href="semi.html" ><button class="enter">MORE INFO</button></a>
+           </div>
+       </div>
+	   <div class="section">
+          
+
+      </div>
+<!--END OF SECTION-->
+   </div>
+<!--END OF WRAPPER-->
+   </showcase>
+<!--END OF SHOWCASE-->
+   
+   <footer>
+       <div>
+	   <h1>VIVEKANANDHA COLLEGE OF ENGINEERING</h1>
+       <p>CONTACT INSTITUTION</p>
+	   <h4>vivekanandha college of engineering,Namakkal<h4>
+	   <h4>Tamilnadu-637 205, INDIA</h4>
+	   <h5>P : 04288-34567-98<h5>
+	   <h5>F : 04288-345678<h5>
+	   <h5>E : info@vce.org<h5>
+	  
+		  
+   </footer>
+   <a href="background.html" ><button class="enter">GO BACK</button></a>
+    
+</body>
+</html>
